@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="../src/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="module" src="../src/js/index.js"></script>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <h1 class="header">Malzemelerinizi Secin</h1>
+      <div class="ingredientsContainer">
+        <div class="ingredientsWrapper">
+          <input value="marul" class="checkbox" id="marul" type="checkbox" />
+          <label for="marul">Marul</label>
+        </div>
+        <div class="ingredientsWrapper">
+          <input value="sos" class="checkbox" id="sos" type="checkbox" />
+          <label for="sos">Paket sos</label>
+        </div>
+        <div class="ingredientsWrapper">
+          <input value="sogan" class="checkbox" id="sogan" type="checkbox" />
+          <label for="sogan">Sogan</label>
+        </div>
+        <div class="ingredientsWrapper">
+          <input
+            value="domates"
+            class="checkbox"
+            id="domates"
+            type="checkbox"
+          />
+          <label for="domates">Domates</label>
+        </div>
+        <div class="ingredientsWrapper">
+          <input
+            value="tursu"
+            class="checkbox"
+            id="tursu"
+            type="checkbox"
+          />
+          <label for="tursu">Tursu</label>
+        </div>
+      </div>
+      <div class="allNotifications">
+        <h1 class="potatoes"></h1>
+        <h1 class="drink"></h1>
+        <h1 class="notification"></h1>
+      </div>
+      <div class="buttonContainer">
+        <button class="kofte move hidden">kofte</button>
+        <button class="tavuk move hidden">tavuk</button>
+        <button class="continueBtn">Devam et</button>
+      </div>
+      <div class="cookingOptions">
+        <button value="az" class="az btn hidden">az pismis</button>
+        <button value="orta" class="orta btn hidden">orta pismis</button>
+        <button value="cok" class="cok btn hidden">cok pismis</button>
+      </div>
+      <button class="newOrder hidden">yeni siparis</button>
+    </main>
+  </body>
+</html>

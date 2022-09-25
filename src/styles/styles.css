@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.allNotifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notification {
+  display: flex;
+  margin-top: 20px;
+  flex: 1;
+}
+.potatoes {
+  display: flex;
+  margin-top: 20px;
+}
+.drink {
+  display: flex;
+  margin-top: 20px;
+}
+.visible {
+  display: flex;
+}
+.cookingOptions {
+  display: flex;
+  gap: 30px;
+}
+.az {
+  display: flex;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #d65370;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.az:hover {
+  background-color: #cf7f90;
+}
+.orta {
+  display: flex;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #88030a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.orta:hover {
+  background-color: #be474d;
+}
+.cok {
+  display: flex;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #4d0206;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.cok:hover {
+  background-color: #99474b;
+}
+.mainContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredientsContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.ingredientsWrapper {
+  display: flex;
+  gap: 5px;
+}
+.checkbox {
+  cursor: pointer;
+}
+label {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+}
+.header {
+  display: flex;
+  margin-bottom: 30px;
+}
+.continueBtn {
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #00009b;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translateY(-40px);
+}
+.continueBtn:hover {
+  background-color: #5050ad;
+}
+.newOrder {
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #0d701a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.newOrder:hover {
+  background-color: #399245;
+}
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.kofte {
+  padding: 15px;
+  display: flex;
+  font-weight: 600;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #753508;
+}
+
+.tavuk {
+  padding: 15px;
+  display: flex;
+  font-weight: 600;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #da6a1b;
+}
+
+.hidden {
+  display: none;
+}
